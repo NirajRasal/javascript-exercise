@@ -43,13 +43,15 @@ function multiply (input) {
 
 
 function power(base,power) {
-	var result=base;
+	/*var result=base;			//this logic also works
 	for(var i=1; i<power; i++)
 	{
 		var result=result*base;
 		
 	}
-	return result;
+	return result;*/
+	let output=base ** power;
+	return output;
 }
 
 function factorial(no) {
